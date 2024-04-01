@@ -1,0 +1,603 @@
+environment=Local
+localSetUp=false
+localSetUpValue=presocial
+OS=Linux
+browserName=firefox
+language=English
+
+retryDriverHandling=true
+resetEnv=true
+testChromeBrowser=false
+multiCookieMode=true
+toRunLn=true
+toRunTw=true
+debug=false
+isHeadless=false
+setDriverPath=true
+postToChannel=true
+useAI=true
+remoteAllowOrigin=false
+AIInvalideToken=sk-5h-MGPLAj1auHrj0PT3BlbkFJ8fVNxprLmYtc
+recordScreen=false
+closeBanner=false
+detailedLogger=true
+closeFeatureAnnouncementBanner=false
+discardWmsBanner=false
+wmsBannerDiscardEnv=AU,EU
+AU_WmsBannerDiscardValue=1701334064885
+EU_WmsBannerDiscardValue=1701328625574
+
+screenNeeded=false
+Linux_toEmail=social-qa@zohocorp.com
+Mac_toEmail=sangeetha.mg@zohocorp.com
+debugEmail=athithanraj.p@zohocorp.com
+
+environmentToSchedule=US
+isExternalLogin=false
+externalUserName=mutharason.s+devilpearlking@zohotest.com
+externalPassword=ZohoTest@24
+externalToEmail=sangeetha.mg@zohocorp.com
+LIP=127.0.0.1
+
+Linux_fireFoxPath=/home/test/firefox105/firefox
+Linux_testResourcesPath=/home/test/testResourceFiles/
+Linux_autochromePath=/home/test/driver/GoogleChromeforTesting/chrome
+Linux_driverPath=/home/test/driver/
+Linux_ffprobePath=/home/test/driver/
+
+Mac_fireFoxPath=/Applications/Firefox.app/Contents/MacOS/firefox-bin
+Mac_testResourcesPath=/Users/host/Desktop/testResourceFiles/
+Mac_autochromePath=/Users/host/Desktop/driver/GoogleChromeforTesting.app/Contents/MacOS/GoogleChromeforTesting
+Mac_driverPath=/Users/host/Desktop/driver/
+Mac_ffprobePath=/Users/host/Desktop/driver/
+
+serverIp=http://10.15.227.249:8002
+
+US_Url=https://accounts.zoho.com/signin?servicename=ZohoSocial&signupurl=https://www.zoho.com/social/signup.html
+IN_Url=https://accounts.zoho.in/signin?servicename=ZohoSocial&signupurl=https://www.zoho.in/social/signup.html
+Local_Url=https://accounts.localzoho.com/signin?servicename=ZohoSocial&signupurl=https://www.localzoho.com/social/signup.html
+EU_Url=https://accounts.zoho.eu/signin?servicename=ZohoSocial&signupurl=https://www.zoho.eu/social/signup.html
+AU_Url=https://accounts.zoho.com.au/signin?servicename=ZohoSocial&signupurl=https://www.zoho.com.au/social/signup.html
+JP_Url=https://accounts.zoho.jp/signin?servicename=ZohoSocial&signupurl=https://www.zoho.jp/social/signup.html
+
+Local_AccountsLogOutUrl=https://accounts.localzoho.com/logout?servicename=AaaServer&serviceurl=https://accounts.localzoho.com/home
+US_AccountsLogOutUrl=https://accounts.zoho.com/logout?servicename=AaaServer&serviceurl=https://accounts.zoho.com/home
+IN_AccountsLogOutUrl=https://accounts.zoho.in/logout?servicename=AaaServer&serviceurl=https://accounts.zoho.in/home
+EU_AccountsLogOutUrl=https://accounts.zoho.eu/logout?servicename=AaaServer&serviceurl=https://accounts.zoho.eu/home
+AU_AccountsLogOutUrl=https://accounts.zoho.com.au/logout?servicename=AaaServer&serviceurl=https://accounts.zoho.com.au/home
+JP_AccountsLogOutUrl=https://accounts.zoho.jp/logout?servicename=AaaServer&serviceurl=https://accounts.zoho.jp/home
+CA_AccountsLogOutUrl=https://accounts.zohocloud.ca/logout?servicename=AaaServer&serviceurl=https://accounts.zohocloud.ca/home
+
+IN_UDSDownloadUrl=https://in2-download-accl.zoho.in/webdownload
+EU_UDSDownloadUrl=https://downloadcc-accl.zoho.eu/webdownload
+AU_UDSDownloadUrl=https://https://download.zoho.com.au/webdownload
+JP_UDSDownloadUrl=https://download.zoho.jp/webdownload
+US_UDSDownloadUrl=https://downloadcc-accl.zoho.com/webdownload
+Local_UDSDownloadUrl=https://download.localzoho.com/webdownload
+CA_UDSDownloadUrl=https://download.zohocloud.ca/webdownload
+
+US_Social_Url=https://social.zoho.com
+IN_Social_Url=https://social.zoho.in
+Local_Social_Url=https://social.localzoho.com
+EU_Social_Url=https://social.zoho.eu
+AU_Social_Url=https://social.zoho.com.au
+JP_Social_Url=https://social.zoho.jp
+CA_Social_Url=https://social.zohocloud.ca
+
+Local_CRMPlusUrl_SignIn=https://accounts.localzoho.com/signin?servicename=CRMPlus&serviceurl=https://crmplus.localzoho.com/index.do
+US_CRMPlusUrl_SignIn=https://accounts.zoho.com/signin?servicename=CRMPlus&serviceurl=https://crmplus.zoho.com/index.do
+
+US_AccountCreation=https://www.zoho.com/r/signup.html
+Local_AccountCreation=https://www.localzoho.com/r/signup.html
+EU_AccountCreation=https://www.zoho.com/r/signup.html
+IN_AccountCreation=https://www.zoho.com/r/signup.html
+AU_AccountCreation=https://www.zoho.com/r/signup.html
+JP_AccountCreation=https://www.zoho.com/r/signup.html
+CA_AccountCreation=https://www.zoho.com/r/signup.html
+
+US_Accounts=https://accounts.zoho.com/u/h
+Local_Accounts=https://accounts.localzoho.com/u/h#home
+EU_Accounts=https://accounts.zoho.eu/u/h
+IN_Accounts=https://accounts.zoho.in/u/h#home
+AU_Accounts=https://accounts.zoho.com.au/u/h#home
+JP_Accounts=https://accounts.zoho.jp/u/h#home
+CA_Accounts=https://accounts.zohocloud.ca/u/h#home
+
+US_AccountsDomain=https://accounts.zoho.com
+Local_AccountsDomain=https://accounts.localzoho.com
+EU_AccountsDomain=https://accounts.zoho.eu
+IN_AccountsDomain=https://accounts.zoho.in
+AU_AccountsDomain=https://accounts.zoho.com.au
+JP_AccountsDomain=https://accounts.zoho.jp
+CA_AccountsDomain=https://accounts.zohocloud.ca
+
+US_AccountsSignUpUrl=https://accounts.zoho.com/accounts/register?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.com%2Fhome
+Local_AccountsSignUpUrl=https://accounts.localzoho.com/accounts/register?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.localzoho.com%2Fhome
+EU_AccountsSignUpUrl=https://accounts.zoho.eu/accounts/register?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.eu%2Fhome
+IN_AccountsSignUpUrl=https://accounts.zoho.in/accounts/register?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.in%2Fhome
+AU_AccountsSignUpUrl=https://accounts.zoho.com.au/accounts/register?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.com.au%2Fhome
+JP_AccountsSignUpUrl=https://accounts.zoho.jp/accounts/register?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.jp%2Fhome
+CA_AccountsSignUpUrl=https://accounts.zohocloud.ca/accounts/register?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zohocloud.ca%2Fhome
+
+US_PaymentsUrl=https://store.zoho.com/
+Local_PaymentsUrl=https://localstore.localzoho.com/
+IN_PaymentsUrl=https://store.zoho.in/
+EU_PaymentsUrl=https://store.zoho.eu/
+AU_PaymentsUrl=https://store.zoho.com.au/
+JP_PaymentsUrl=https://store.zoho.jp/
+CA_PaymentsUrl=https://store.zohocloud.ca/
+
+US_refferalsUrl=https://referrals.zoho.com/
+Local_refferalsUrl=https://referrals.localzoho.com/
+IN_refferalsUrl=https://referrals.zoho.in/
+EU_refferalsUrl=https://referrals.zoho.eu/
+AU_refferalsUrl=https://referrals.zoho.com.au/
+JP_refferalsUrl=https://referrals.zoho.jp/
+CA_refferalsUrl=https://referrals.zohocloud.ca/
+
+
+US_CrmUrl=https://crm.zoho.com/
+EU_CrmUrl=https://crm.zoho.eu/
+AU_CrmUrl=https://crm.zoho.com.au/
+IN_CrmUrl=https://crm.zoho.in/
+JP_CrmUrl=https://crm.zoho.jp/
+CA_CrmUrl=https://crm.zohocloud.ca/
+Local_CrmUrl=https://crm.localzoho.com/
+
+US_CrmPlusUrl=https://crmplus.zoho.com/
+EU_CrmPlusUrl=https://crmplus.zoho.eu/
+AU_CrmPlusUrl=https://crmplus.zoho.com.au/
+Local_CrmPlusUrl=https://crmplus.localzoho.com/
+IN_CrmPlusUrl=https://crmplus.zoho.in/
+JP_CrmPlusUrl=https://crmplus.zoho.jp/
+CA_CrmPlusUrl=https://crmplus.zohocloud.ca/
+
+
+US_DeskUrl=https://desk.zoho.com
+Local_DeskUrl=https://desk.localzoho.com
+
+
+US_SignUpUrl=https://www.zoho.com/social/signup.html
+Local_SignUpUrl=https://www.localzoho.com/social/signup.html
+EU_SignUpUrl=https://www.zoho.eu/social/signup.html
+IN_SignUpUrl=https://www.zoho.in/social/signup.html
+JP_SignUpUrl=https://www.zoho.jp/social/signup.html
+AU_SignUpUrl=https://www.zoho.com.au/social/signup.html
+CA_SignUpUrl=https://www.zohocloud.ca/social/signup.html
+
+US_MarketingUrl=https://www.zoho.com/social/
+Local_MarketingUrl=https://www.localzoho.com/social/
+EU_MarketingUrl=https://www.zoho.eu/social/
+IN_MarketingUrl=https://www.zoho.in/social/
+AU_MarketingUrl=https://www.zoho.com.au/social/
+JP_MarketingUrl=https://www.zoho.jp/social/
+CA_MarketingUrl=https://www.zohocloud.ca/social/
+
+US_ComposeScreen_Shortner=https://zurl.co/
+Local_ComposeScreen_Shortner=http://social.localtu.com/
+EU_ComposeScreen_Shortner=https://zurl.co/
+IN_ComposeScreen_Shortner=https://zurl.co/
+AU_ComposeScreen_Shortner=https://zurl.co/
+JP_ComposeScreen_Shortner=https://zurl.co/
+CA_ComposeScreen_Shortner=https://zurl.co/
+
+US_Shortner=https://zcu.io/
+Local_Shortner=http://social.localtu.com/
+EU_Shortner=https://zcu.io/
+IN_Shortner=https://zcu.io/
+AU_Shortner=https://zcu.io/
+JP_Shortner=https://zcu.io/
+CA_Shortner=https://zcu.io/
+
+Local_zohoOneUrl=https://www.localzoho.com/en-in/one/
+Local_crmPlusUrl=https://www.localzoho.com/crm/crmplus/
+Local_marketingUrl1=https://www.localzoho.com/marketingplus/?src=top-header&ireft=one-bu
+Local_newCRMUrl=https://newcrmplus.localzoho.com/
+
+
+Local_CRMBrandsListUrl=https://crm.localzoho.com/crm/org71018495/settings/extensions/social/brands
+Local_CRMSettingsUrl=https://social.localzoho.com/social/crmtest/53841000000113053/Home.do#brandsettings/channels
+
+
+US_CRMBrandsListUrl=https://crm.zoho.com/crm/org799243024/settings/extensions/social/brands
+
+
+
+
+EU_MailSentCheckAccount=dlrowtlobolleh4@gmail.com
+Local_MailSentCheckAccount=athithanraj.p+invitecheckt0@zohotest.com
+US_MailSentCheckAccount=athithanraj.p+invitecheckt0@zohotest.com
+IN_MailSentCheckAccount=athithya24testz4@outlook.com
+JP_MailSentCheckAccount=athithanraj.p+ijp@zohotest.com
+
+generalMail=athithanraj.p+boltworld24t0@zohotest.com
+existingUserInviteMail=athithanraj.p+existingusert0@zohotest.com
+shareReportMail=athithanraj.p+1724t0@zohotest.com
+
+userInviteFolderName=User Invitation Mails
+newUserInviteFolderName=New User Invite Mails
+existingClientUserInviteFolder=Existing client Invite
+NewClientUserInviteFolder=New Client User Invite
+recentPostExportFolder=Recent Post Export Mails
+publishedPostExportFolder=Published Post Export
+emailedReportFolder=Report Export Mails
+sharedReportsFolder=Shared Report Emails
+sharedClientReportsFolder=Shared Client Report
+disconnectMailFolder=disconnect Mails
+pauseMailFolder=pauseMails
+resumeMailFolder=resumeMails
+scheduledReportFolder=Scheduled Reports
+
+geoTaggingLocation=delhi
+
+WelcomeMailFolderName=Welcome mail
+
+Local_existingClientUserName=athithanraj.p+existingclientusert0@zohotest.com
+US_existingClientUserName=athithanraj.p+existingclientusert0@zohotest.com
+shareReportToClient=athithanraj.p+clientt0@zohotest.com
+
+Local_PauseResumeTeamMemberMail=athithanraj.p+pauseresumecheckt0@zohotest.com
+
+isRunning=false
+
+
+
+senderId=1102481316723867648
+
+EU_twHandleName=@Athi45535150
+JP_twHandleName=@testash0123
+AU_twHandleName=@iniya7010
+US_twHandleName=@Realtimesocial0
+IN_twHandleName=@funpanromdude
+CA_twHandleName=@Robot301
+
+
+<<<<<<< HEAD
+brandSwapOrder=2,1,3
+=======
+brandSwapOrder=3,2,1
+>>>>>>> 6752a03d8e8dea2a1d5d1e347c885862a615d7d0
+environmentSwapOrderReal=EU,IN,US,JP,AU
+environmentSwapOrderLead=EU,JP
+fbEventCheckOrder=fbLike,fbComment
+twEventCheckOrder=twRetweet,twMention
+igEventCheckOrder=igMsg
+
+
+English_facebookPageName=Facebook Page
+English_facebookGroupName=Facebook Group
+English_twitterProfileName=X Profile
+English_linkedinProfileName=LinkedIn Profile
+English_linkedinCompanyPageName=LinkedIn Company Page
+English_googleMyBusinessName=Google My Business
+English_instagramProfileName=Instagram Profile
+English_youTubeChannelName=YouTube Channel
+English_pinterestProfileName=Pinterest Profile
+English_tiktokBusinessProfileName=TikTok Business Profile
+English_mastodonProfileName=Mastodon Profile
+
+espa?ol_facebookPageName=P\u00E1gina de Facebook
+espa?ol_facebookGroupName=Facebook Group
+espa?ol_twitterProfileName=Twitter
+espa?ol_linkedinProfileName=LinkedIn Profile
+espa?ol_linkedinCompanyPageName=P\u00E1gina de empresa de LinkedIn
+espa?ol_googleMyBusinessName=Google My Business
+espa?ol_instagramProfileName=Instagram
+espa?ol_tiktokBusinessProfileName=TikTok Business Profile
+
+English_connectLabel=connect
+espa?ol_connectLabel=conectar
+
+
+English_homeLabel=Home
+espa?ol_homeLabel=Inicio
+
+English_postsLabel=Posts
+espa?ol_postsLabel=Publicaciones
+
+English_publishedPostsLabel=Published Posts
+espa?ol_publishedPostsLabel=Publicaciones publicadas
+
+English_scheduledPostsLabel=Scheduled Posts
+espa?ol_scheduledPostsLabel=Publicaciones programadas
+
+English_postsScheduledResponse=All set! Your post has been scheduled.
+espa?ol_postsScheduledResponse=\u00A1Todo listo! Su publicaci\u00F3n se ha programado.
+
+English_postsScheduleUpdatedResponse=Done. Your scheduled post has been updated.
+espa?ol_postsScheduleUpdatedResponse=Done. Your scheduled post has been updated.
+
+English_postsDraftedResponse=Done! We've saved your draft.
+
+English_today=Today
+espa?ol_today=Hoy
+
+English_tomorrow=Tomorrow
+espa?ol_tomorrow=Hoy
+
+English_draftedResponse=Done! We've saved your draft.
+
+English_draftsLabel=Drafts
+
+English_calendarLabel=Calendar
+
+1EU_attachmentFileId=629338000000032011
+1EU_attachmentSize=73368
+1EU_attachmentDimension=720*720
+1EU_attachmentName=720x720.jpg
+
+1US_attachmentFileId=1429605000000037001
+1US_attachmentSize=73368
+1US_attachmentDimension=720*720
+1US_attachmentName=720x720.jpg
+
+1JP_attachmentFileId=40970000000003003
+1JP_attachmentSize=73368
+1JP_attachmentDimension=720*720
+1JP_attachmentName=720x720.jpg
+
+1AU_attachmentFileId=30528000000134030
+1AU_attachmentSize=73368
+1AU_attachmentDimension=720*720
+1AU_attachmentName=720x720.jpg
+
+1IN_attachmentFileId=4346058000000006001
+1IN_attachmentSize=73368
+1IN_attachmentDimension=720*720
+1IN_attachmentName=720x720.jpg
+
+
+
+2Local_attachmentFileId=209922000000332077
+2Local_attachmentSize=20064
+2Local_attachmentDimension=539*360
+2Local_attachmentName=enjoy.jpeg
+
+2US_attachmentFileId=6602415000000373002
+2US_attachmentSize=20064
+2US_attachmentDimension=539*360
+2US_attachmentName=enjoy.jpeg
+
+2JP_attachmentFileId=16793000000005060
+2JP_attachmentSize=20064
+2JP_attachmentDimension=539*360
+2JP_attachmentName=enjoy.jpeg
+
+2EU_attachmentFileId=577570000000097002
+2EU_attachmentSize=20064
+2EU_attachmentDimension=539*360
+2EU_attachmentName=enjoy.jpeg
+
+
+2AU_attachmentFileId=6071000000053005
+2AU_attachmentSize=20064
+2AU_attachmentDimension=539*360
+2AU_attachmentName=enjoy.jpeg
+
+RE_Local_attachmentId=209922000000250001
+RE_EU_attachmentId=577570000000127112
+RE_US_attachmentId=6602415000000514012
+RE_IN_attachmentId=57084000000117089
+RE_AU_attachmentId=6071000000083124
+RE_attachmentSize=84175
+RE_attachmentDimension=960*640
+RE_attachmentName=collab.jpg
+
+
+2IN_attachmentFileId=57084000000089016
+2IN_attachmentSize=20064
+2IN_attachmentDimension=539*360
+2IN_attachmentName=enjoy.jpeg
+
+
+
+Local_attachmentFileId=622476000000046014
+Local_attachmentSize=174548
+Local_attachmentDimension=768*960
+Local_attachmentName=104462743_122607339481530_1093331771149024234_o.jpg
+
+US_attachmentFileId=231348000000094005
+US_attachmentSize=89183
+US_attachmentDimension=1300*1300
+US_attachmentName=qt.jpg
+
+EU_attachmentFileId=516150000000061106
+EU_attachmentSize=89183
+EU_attachmentDimension=1300*1300
+EU_attachmentName=qt.jpg
+
+IN_attachmentFileId=57373000000045222
+IN_attachmentSize=89183
+IN_attachmentDimension=1300*1300
+IN_attachmentName=qt.jpg
+
+AU_attachmentFileId=10908000000020188
+AU_attachmentSize=89183
+AU_attachmentDimension=1300*1300
+AU_attachmentName=qt.jpg
+
+JP_attachmentFileId=16708000000013043
+JP_attachmentSize=20064
+JP_attachmentDimension=539*360
+JP_attachmentName=enjoy.jpeg
+
+
+
+deletePortalConfirmationMsg0=I want to use this email account to open a new portal.
+deletePortalConfirmationMsg1=I have upgraded to Zoho bundles,so I need to close this portal.
+deletePortalConfirmationMsg2=I don't need to use Zoho Social for now.
+deletePortalConfirmationMsg3=Others
+
+deletePortalConfirmationWarningMsg0=All Brands under it will be deleted.
+deletePortalConfirmationWarningMsg1=Access will be revoked for all team members.
+deletePortalConfirmationWarningMsg2=Scheduled posts,drafts,monitoring columns,reports,etc. and other stored data will be erased permanently.
+deletePortalConfirmationWarningMsg3=Once you proceed with this action,your portal will be reset and cannot be recovered later.
+
+accountNonExistenceErrorMsg=This account cannot be found. Please use a different account or sign up for a new account.
+
+
+LeadAdsBaseBrandName=Lead Ads Base Brand
+scheduledEnvironment=US
+
+Local_ScheduledMailId=athithanraj.p+zcrm25t0@zohotest.com
+US_ScheduledMailId=athithanraj.p+zcrm24t0@zohotest.com
+
+SentForApprovalFolder=SentForApprovals
+SentForApprovalClientFolder=SentForApprovalClient
+ApprovedFolder=Approved
+RejectedFolder=Rejected
+
+Local_WorkFlowUserId=athithanraj.p+workflowusert0@zohotest.com
+Local_WorkFlowAdminId=athithanraj.p+workflowadmint0@zohotest.com
+
+Local_WorkFlowClientPortalUrl=https://workflowzr.localsocialpublic.com
+US_WorkFlowClientPortalUrl=https://wrkadm.social-public.com/
+
+Mac_tessdata=/usr/local/Cellar/tesseract/5.1.0/share/tessdata
+Linux_tessdata=/usr/share/tesseract-ocr/4.00/tessdata
+
+Local_SearchableBrandID=57792000001299003
+US_SearchableBrandID=57792000001299003
+
+SearchableBrandEmail=athithanraj.p+pauseresumecheckt0@zohotest.com
+SearchableBrandName=SearchableBrand
+
+
+
+
+
+
+
+_iamadt=021757fe0e70f3958d3d8e6657218bb09ba72459f04a7c263e8d4a54a69c648562bbc70bdfd486b63ce398905bd108ffdac3a4a328fa3f176b2810009075bf66
+_iambdt=fa4efe6afe7ca80683f92da7c6b51d9e8c89cc87f2513950d2267b8fc06b85e14b7cd9c4b7a5f2bf68de4d8c5b8b190987b550c745ba4ac261571b051b72d4a7
+iamcsr=f59558a922e335661f8bece543b1f785593bb5d08c3453f69d70a6bb117cf7353e323e6feb6cd913c76f2f4878dcd88312e6820ac7c5369eba3242cab5f68f06
+
+
+
+EU_IGSentId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0NDg0MDI1NzY2NjQ6MzQwMjgyMzY2ODQxNzEwMzAwOTQ5MTI4MTY1NTM1NDUwNTAyOTI4
+EU_IGReplierId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0NTQ0MDI3NzMxNDE6MzQwMjgyMzY2ODQxNzEwMzAwOTQ5MTI4MTEyOTk3OTA2MTIyNjE0
+
+EU_SenderId=1102481316723867648
+EU_ReplierId=4456734924338814
+
+AU_IGSentId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0NDU1MTEzNzQ3MzA6MzQwMjgyMzY2ODQxNzEwMzAwOTQ5MTI4MTkzMDA5MDk1OTQ0ODQy
+AU_IGReplierId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0NDU1MTEzNzQ3MzA6MzQwMjgyMzY2ODQxNzEwMzAwOTQ5MTI4MTkzMDA5MDk1OTQ0ODQy
+
+AU_SenderId=5905961869475212
+AU_ReplierId=5905961869475212
+
+IN_SenderId=1735578033032232960
+IN_IGReplierId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0MDcyODQ0MzMwMDg6MzQwMjgyMzY2ODQxNzEwMzAxMjQ0MjU5NDQ0MTMzNTM4MjM0MTc0
+
+
+IN_ReplierId=6990609941026562
+
+
+
+
+JP_IGSentId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0NTgzNTgxMzIyMTQ6MzQwMjgyMzY2ODQxNzEwMzAxMjQ0MjU5MzI0MTQxMz
+
+JP_IGReplierId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0NTQ5NzM5NTM1OTE6MzQwMjgyMzY2ODQxNzEwMzAxMjQ0Mjc2MDc0MTU1NDU5MDMyMjQ4
+
+JP_SenderId=6411618018959330
+JP_ReplierId=7508967725781923
+
+
+US_IGSentId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0MDMzNTg1OTk2NTE6MzQwMjgyMzY2ODQxNzEwMzAwOTQ5MTI4NTg5MDk4NzgwMjc2MjA5
+US_IGReplierId=aWdfZAG06MTpJR01lc3NhZA2VUaHJlYWQ6MTc4NDE0NjEyOTM4NDUyNzA6MzQwMjgyMzY2ODQxNzEwMzAxMjQ0Mjc2MDQ2MDgyNDg1MTMwMTA1
+
+US_SenderId=7276800585773072
+US_ReplierId=6916629145072012
+
+Local_CrmFilterId=1712091000000000559
+Local_CrmOrg=71018495
+Local_CrmHost=crm.localzoho.com
+
+US_CrmFilterId=5568876000000002595
+US_CrmOrg=799243024
+US_CrmHost=crm.zoho.com
+
+
+
+JP_CrmOrg=90000639821
+JP_CrmFilterId=15263000000002898
+JP_CrmHost=crmplus.zoho.jp
+
+EU_CrmOrg=20077487795
+EU_CrmFilterId=352987000000000599
+EU_CrmHost=crmplus.zoho.eu
+
+US_AccConfirmationHost=accounts.zoho.com
+EU_AccConfirmationHost=accounts.zoho.eu
+IN_AccConfirmationHost=accounts.zoho.in
+AU_AccConfirmationHost=accounts.zoho.com.au
+
+isAccConfirmation=false
+accConfirmationEmail=athithanraj.p+zxfdst1@zohotest.com
+
+
+EU_Host=social.zoho.eu
+US_Host=social.zoho.com
+IN_Host=social.zoho.in
+AU_Host=social.zoho.com.au
+JP_Host=social.zoho.jp
+Local_Host=social.localzoho.com
+
+
+EUVideo_attachmentURL=ZohoSocial_577570000000139038_1.0 NN28:643070561578925104
+Video_Size=5945759
+Video_attachmentDimension=1280*720
+Video_attachmentName=200309_02_atomic archive_collection_9_004_preview.mp4
+Video_duration=11400
+
+EUVideoThumbnail_attachmentURL=ZohoSocial_577570000000139039_1.0 NN28:643070561578925104
+VideoThumbnail_Size=194800
+EUVideoThumbnail_Name=SOCIAL_UPLOAD_1664957690726.jpg
+
+
+AUVideo_attachmentURL=ZohoSocial_6071000000095063_1.0 NN44:4462073872030063198
+AUVideoThumbnail_attachmentURL=ZohoSocial_6071000000095064_1.0 NN44:4462073872030063198
+AUVideoThumbnail_Name=SOCIAL_UPLOAD_1664959210401.jpg
+
+USVideo_attachmentURL=ZohoSocial_6602415000000560011_1.0 NN13:-4768551333095295434
+USVideoThumbnail_attachmentURL=ZohoSocial_6602415000000563012_1.0 NN13:-4768551333095295434
+USVideoThumbnail_Name=SOCIAL_UPLOAD_1664963169714.jpg
+
+INVideo_attachmentURL=ZohoSocial_57084000000139017_1.0 NN32:6531038624459375516
+INVideoThumbnail_attachmentURL=ZohoSocial_57084000000140009_1.0 NN32:6531038624459375516
+INVideoThumbnail_Name=SOCIAL_UPLOAD_1664964609089.jpg
+
+
+JPVideo_attachmentURL=ZohoSocial_16793000000004047_1.0 NN51:6431735888334527488
+JPVideoThumbnail_Name=SOCIAL_UPLOAD_1664965021200.jpg
+JPVideoThumbnail_attachmentURL=ZohoSocial_16793000000005034_1.0 NN51:6431735888334527488
+
+LocalVideo_attachmentURL=ZohoSocial_209922000000286001_1.0 NN1:-3740091387086343641
+LocalVideoThumbnail_Name=SOCIAL_UPLOAD_1664966885551.jpg
+LocalVideoThumbnail_attachmentURL=ZohoSocial_209922000000286002_1.0 NN1:-3740091387086343641
+
+recentBrandHealthCheck=06072023
+
+failedCaseLastRunTime=05:32 PM 07/23/2023
+
+
+Local_existingPortalName=hellobolt
+IN_existingPortalName=testz4
+US_existingPortalName=zoho
+JP_existingPortalName=athithanrajpjbolt24t0
+EU_existingPortalName=eutestacc
+AU_existingPortalName=dlrowtlobolleh4
+
+
+chrome_ProfilePath_Linux=/home/test/.config/google-chrome/
+profileNo_Linux=1
+edge_ProfilePath_Linux=/home/test/.config/microsoft-edge/
+brave_ProfilePath_Linux=/home/test/.config/BraveSoftware/Brave-Browser-Nightly/
+
+chrome_ProfilePath_Mac=/Users/host/Library/Application Support/Google/Chrome/
+profileNo_Mac=6
+
+user_Role=true
+
+
+
